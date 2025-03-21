@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Formulario BBDD</title>
+		<meta name="autor" content="Victor Manuel Lozano Herrera">
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="css/camino.css">
+	</head>
+	<body>
+		<h1>NUEVO JESUITA</h1>
+		<form method="POST" action="añadir.php">
+				<label for="nombrejesuita">Nombre del Jesuita:</label><br>
+				<input type="text" name="nombrejesuita" required placeholder="Nombre del Jesuita"><br><br>
+				<label for="codigo">Codigo:</label><br>
+				<input type="password" name="codigo" required placeholder="Codigo" maxlength="5"><br><br>
+				<label for="nombrealumno">Nombre del Alumno:</label><br>
+				<input type="text" name="nombrealumno" required placeholder="Nombre del Alumno"><br><br>
+				<label for="nombrejesuita">Firma Español:</label><br>
+				<input type="text" name="firmasp" required placeholder="Firma Español"><br><br>
+				<label for="firmaing">Firma Ingles:</label><br>
+				<input type="text" name="firmaing" required placeholder="Firma Ingles"><br><br>
+				<input type="submit" value="Enviar">
+		</form>
+	</body>
+</html>

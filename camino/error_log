@@ -1,0 +1,7 @@
+[19-Mar-2025 15:42:48 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'user1daw_17'@'31.200.242.5' to database 'jesuitas' in /home/user1daw/public_html/17/lm/camino/añadir.php:10
+Stack trace:
+#0 /home/user1daw/public_html/17/lm/camino/añadir.php(10): mysqli->__construct('1daw.esvirgua.c...', 'user1daw_17', 'C~07l5puwj.U', 'jesuitas')
+#1 {main}
+  thrown in /home/user1daw/public_html/17/lm/camino/añadir.php on line 10
+[20-Mar-2025 17:38:54 UTC] PHP Warning:  Undefined variable $idJesuita in /home/user1daw/public_html/17/lm/camino/Visita.php on line 28
+[20-Mar-2025 17:39:08 UTC] PHP Warning:  Undefined variable $idJesuita in /home/user1daw/public_html/17/lm/camino/Visita.php on line 28
